@@ -13,10 +13,24 @@ DESCRIBE employee;
 
 
 INSERT INTO employee VALUES
-(1,'Joe', 1000 ),
-(2,'Mark', 2000 ),
-(3,'Miguel', 2500 ),
-(4,'Jonas', 1500 );
+(40'Joe', 1000,'empleado' ),
+(50,'Mark', 2000,'empleado' ),
+(53,'Miguel', 2500,'empleado' ),
+(41,'44', 2500,'empleado' ),
+(55,'45', 2500,'empleado' ),
+(65,'46', 2500,'empleado' ),
+(75,'47', 2500 ,'empleado'),
+(85,'48', 2500,'empleado' ),
+(95,'49', 2500 ,'empleado'),
+(10,'50', 2500,'empleado' ),
+(11,'100', 2500,'empleado' ),
+(12,'200', 2500 ,'empleado'),
+(13,'ada', 2500 ,'empleado'),
+(14,'ff', 2500 ,'empleado'),
+(15,'ada', 2500 ,'empleado'),
+(16'sas', 2500,'empleado' ),
+(17,'sass', 2500 ,'empleado'),
+(18'Miguel', 2500,'empleado' );
 
 
 CREATE TABLE admin(
