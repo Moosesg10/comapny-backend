@@ -38,7 +38,7 @@ UPDATE admin SET name = (name) , correo = ( correo) , password =(password), admi
 
 ALTER TABLE employee ADD COLUMN rol VARCHAR(10);
 
-UPDATE employee SET name = (name) , salary = ( salary) , rol="empleado" WHERE id = 22;
+UPDATE employee SET name = (name) , salary = ( salary) , rol="empleado" WHERE id = 2;
 
 ALTER TABLE employee MODIFY COLUMN rol VARCHAR(100) DEFAULT("empleado");
 
