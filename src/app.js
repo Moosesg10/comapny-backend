@@ -8,7 +8,8 @@ import {  DB_CORS } from "./config.js";
 const app = express();
 
 app.use(cors({
-  origin:DB_CORS,
+  origin:true,
+
   
 }))
 
