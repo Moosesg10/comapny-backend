@@ -9,6 +9,7 @@ const app = express();
 
 app.use(cors({
   origin:DB_CORS,
+  
 }))
 
 app.use(express.json());
