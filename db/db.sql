@@ -20,14 +20,16 @@ INSERT INTO employee VALUES
 
 
 CREATE TABLE admin(
-    id INT(11) NOT NULL AUTO_INCREMENT,
-    name VARCHAR(45) DEFAULT NULL,
-    correo VARCHAR(50)  NOT NULL,
+    id INT(11) NOT NULL,
+    name VARCHAR(45) ,
+    password VARCHAR(20),
+    admin VARCHAR(10),
+    rol VARCHAR(10) ,
     PRIMARY KEY (id)
 )
 
 INSERT INTO admin VALUES(
-  3,  "manuel", "manuel@gamil.com","1254" , "true"
+  1,  "mooses","12345" , "true","owner"
 );
 ALTER TABLE admin ADD COLUMN rol VARCHAR(10) DEFAULT("admin");
 
