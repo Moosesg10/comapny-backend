@@ -28,7 +28,7 @@ export const getAdmins = async (req, res) => {
 export const createAdmin = async (req, res) => {
   const { id, name, password, admin ,rol} = req.body;
   const corrreo ="default@gamil.com"
-    console.log(req.body)
+    
  const result = await pool.query("INSERT INTO admin (id , name,  password , admin, rol) VALUES (? , ? , ? , ?, ?)", [
     id,
     name,
